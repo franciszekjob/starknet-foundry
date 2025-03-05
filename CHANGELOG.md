@@ -20,6 +20,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `snforge_scarb_plugin` now emits an error when parameters are passed without using the `#[fuzzer]` attribute
 - A bug that was causing execution to hang if using forking
 
+#### Added
+- new `--tracked-resource` flag, that will change currently tracked resource
+  (`cairo-steps` for vm resources - default; `sierra-gas` for sierra gas consumed resources in cairo native)
+
 ## [0.38.0] - 2025-02-25
 
 ### Forge
